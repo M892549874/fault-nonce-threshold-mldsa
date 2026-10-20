@@ -1,0 +1,35 @@
+[
+ {
+  "pid": 0,
+  "seed": 0,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3334,
+  "status": "\u6b20\u5b9a(\u8ba1\u6570)",
+  "exact": -1,
+  "dt": 0.0,
+  "cond": null
+ },
+ {
+  "pid": 1,
+  "seed": 0,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3334,
+  "status": "\u6b20\u5b9a(\u8ba1\u6570)",
+  "exact": -1,
+  "dt": 0.0,
+  "cond": null
+ },
+ {
+  "pid": 2,
+  "seed": 0,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3334,
+  "status": "\u6b20\u5b9a(\u8ba1\u6570)",
+  "exact": -1,
+  "dt": 0.0,
+  "cond": null
+ }
+]

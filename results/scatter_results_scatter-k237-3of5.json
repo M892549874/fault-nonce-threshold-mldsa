@@ -1,0 +1,101 @@
+[
+ {
+  "pid": 0,
+  "seed": 0,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 16.754618167877197,
+  "cond": null
+ },
+ {
+  "pid": 0,
+  "seed": 1,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 15.715932607650757,
+  "cond": null
+ },
+ {
+  "pid": 0,
+  "seed": 2,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 17.590633153915405,
+  "cond": null
+ },
+ {
+  "pid": 1,
+  "seed": 0,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 17.94460916519165,
+  "cond": null
+ },
+ {
+  "pid": 1,
+  "seed": 1,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 17.44631052017212,
+  "cond": null
+ },
+ {
+  "pid": 1,
+  "seed": 2,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 13.706743240356445,
+  "cond": null
+ },
+ {
+  "pid": 2,
+  "seed": 0,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 16.15056848526001,
+  "cond": null
+ },
+ {
+  "pid": 2,
+  "seed": 1,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 13.95926284790039,
+  "cond": null
+ },
+ {
+  "pid": 2,
+  "seed": 2,
+  "poly": 3,
+  "mode": "scatter",
+  "k": 3318,
+  "status": "ok",
+  "exact": 256,
+  "dt": 19.319337606430054,
+  "cond": null
+ }
+]

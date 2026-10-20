@@ -1,0 +1,21 @@
+=== R10 3of5 异构 240+13x237 (Σ=3321≤3328, 期望成功) ===
+# dir=transcripts-35 mode=hetero polys=[3] K-dirs=(3, 5) B=20
+p0: 干净对 session1,session2(全等=1024) | 噪声对 session1,session3(全等=0) | K=14
+  seed0 poly3: Σ脏=3321 ⇒ 精确 256/256 (16.76s)
+  seed1 poly3: Σ脏=3321 ⇒ 精确 256/256 (15.35s)
+p1: 干净对 session2,session3(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3321 ⇒ 精确 256/256 (19.11s)
+  seed1 poly3: Σ脏=3321 ⇒ 精确 256/256 (17.83s)
+p2: 干净对 session3,session4(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3321 ⇒ 精确 256/256 (17.21s)
+  seed1 poly3: Σ脏=3321 ⇒ 精确 256/256 (14.68s)
+saved: <bundle>/scatter_results.json
+=== R11 3of5 异构 240+13x238 (Σ=3334>3328, 期望欠定) ===
+# dir=transcripts-35 mode=hetero polys=[3] K-dirs=(3, 5) B=20
+p0: 干净对 session1,session2(全等=1024) | 噪声对 session1,session3(全等=0) | K=14
+  seed0 poly3: Σ脏=3334 ⇒ 欠定(计数) (0.00s)
+p1: 干净对 session2,session3(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3334 ⇒ 欠定(计数) (0.00s)
+p2: 干净对 session3,session4(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3334 ⇒ 欠定(计数) (0.00s)
+saved: <bundle>/scatter_results.json

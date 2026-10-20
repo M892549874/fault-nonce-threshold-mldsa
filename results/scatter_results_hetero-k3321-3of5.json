@@ -1,0 +1,68 @@
+[
+ {
+  "pid": 0,
+  "seed": 0,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3321,
+  "status": "ok",
+  "exact": 256,
+  "dt": 16.761878728866577,
+  "cond": null
+ },
+ {
+  "pid": 0,
+  "seed": 1,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3321,
+  "status": "ok",
+  "exact": 256,
+  "dt": 15.352954149246216,
+  "cond": null
+ },
+ {
+  "pid": 1,
+  "seed": 0,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3321,
+  "status": "ok",
+  "exact": 256,
+  "dt": 19.113861322402954,
+  "cond": null
+ },
+ {
+  "pid": 1,
+  "seed": 1,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3321,
+  "status": "ok",
+  "exact": 256,
+  "dt": 17.83497929573059,
+  "cond": null
+ },
+ {
+  "pid": 2,
+  "seed": 0,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3321,
+  "status": "ok",
+  "exact": 256,
+  "dt": 17.21307349205017,
+  "cond": null
+ },
+ {
+  "pid": 2,
+  "seed": 1,
+  "poly": 3,
+  "mode": "hetero",
+  "k": 3321,
+  "status": "ok",
+  "exact": 256,
+  "dt": 14.68323826789856,
+  "cond": null
+ }
+]

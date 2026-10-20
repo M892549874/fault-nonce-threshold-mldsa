@@ -1,0 +1,35 @@
+=== R7 3-of-5 分散 k=237 x3 (期望成功) ===
+# dir=transcripts-35 mode=scatter polys=[3] K-dirs=(3, 5) B=20
+p0: 干净对 session1,session2(全等=1024) | 噪声对 session1,session3(全等=0) | K=14
+  seed0 poly3: Σ脏=3318 ⇒ 精确 256/256 (16.75s)
+  seed1 poly3: Σ脏=3318 ⇒ 精确 256/256 (15.72s)
+  seed2 poly3: Σ脏=3318 ⇒ 精确 256/256 (17.59s)
+p1: 干净对 session2,session3(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3318 ⇒ 精确 256/256 (17.94s)
+  seed1 poly3: Σ脏=3318 ⇒ 精确 256/256 (17.45s)
+  seed2 poly3: Σ脏=3318 ⇒ 精确 256/256 (13.71s)
+p2: 干净对 session3,session4(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3318 ⇒ 精确 256/256 (16.15s)
+  seed1 poly3: Σ脏=3318 ⇒ 精确 256/256 (13.96s)
+  seed2 poly3: Σ脏=3318 ⇒ 精确 256/256 (19.32s)
+saved: <bundle>/scatter_results.json
+=== R8 3-of-5 分散 k=238 (期望欠定) ===
+# dir=transcripts-35 mode=scatter polys=[3] K-dirs=(3, 5) B=20
+p0: 干净对 session1,session2(全等=1024) | 噪声对 session1,session3(全等=0) | K=14
+  seed0 poly3: Σ脏=3332 ⇒ 欠定(计数) (0.00s)
+p1: 干净对 session2,session3(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3332 ⇒ 欠定(计数) (0.00s)
+p2: 干净对 session3,session4(全等=1024) | 噪声对 session1,session2(全等=0) | K=14
+  seed0 poly3: Σ脏=3332 ⇒ 欠定(计数) (0.00s)
+saved: <bundle>/scatter_results.json
+=== R9 2of2 poly1 分散 k=128 x3 ===
+# dir=partial-m1024 mode=scatter polys=[1] K-dirs=(2, 2) B=4
+p0: 干净对 session1,session2(全等=1024) | 噪声对 session1,session3(全等=0) | K=2
+  seed0 poly1: Σ脏=256 ⇒ 精确 256/256 (0.08s, cond=4.4e+04)
+  seed1 poly1: Σ脏=256 ⇒ 精确 256/256 (0.08s, cond=5.5e+04)
+  seed2 poly1: Σ脏=256 ⇒ 精确 256/256 (0.10s, cond=5.8e+04)
+p1: 干净对 session2,session3(全等=1024) | 噪声对 session1,session2(全等=0) | K=2
+  seed0 poly1: Σ脏=256 ⇒ 精确 256/256 (0.06s, cond=5.2e+04)
+  seed1 poly1: Σ脏=256 ⇒ 精确 256/256 (0.09s, cond=5.4e+04)
+  seed2 poly1: Σ脏=256 ⇒ 精确 256/256 (0.08s, cond=3.5e+05)
+saved: <bundle>/scatter_results.json
